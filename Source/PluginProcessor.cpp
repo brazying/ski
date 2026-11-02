@@ -19,7 +19,7 @@ SkiAudioProcessor::createParameterLayout()
         "Input",
         juce::NormalisableRange<float>(-24.0f, 24.0f, 0.01f),
         0.0f,
-        juce::Audio הע
+        "dB"
     ));
 
     layout.add(std::make_unique<juce::AudioParameterFloat>(
