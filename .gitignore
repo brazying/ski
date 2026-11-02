@@ -1,0 +1,27 @@
+# CMake
+/build/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/compile_commands.json
+/Makefile
+
+# Visual Studio
+/.vs/
+/out/
+/x64/
+/Debug/
+/Release/
+
+# JUCE and plugin build artifacts
+*.vst3
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# OS
+.DS_Store
+Thumbs.db
